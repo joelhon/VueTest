@@ -13,7 +13,7 @@ git commit -m 'deploy'  || goto :error
 
 REM if you are deploying to https://<USERNAME>.github.io/<REPO>
 REM [TODO] : Replace with your username and Repository name
-git push -f git@github.com:joelhon/VueTest.git master:gh-pages  || goto :error
+git push -f https://github.com/joelhon/VueTest.git master:gh-pages || goto :error
 
 cd -  || goto :error
 
